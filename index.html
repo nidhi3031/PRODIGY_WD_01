@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <!-- ===== CSS ===== -->
+        <!-- <link rel="stylesheet" href="assets/bootstrap-3.4.1/css/bootstrap.min.css"> -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Responsive landing page coffee 3D</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header" style="background:#000000;">
+             <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Coffee</a>
+                </div>
+                
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x'></i>
+                    </div>
+
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home" id="home">
+                <div class="home__container bd-grid">
+                    <div class="home__img">
+                        <img src="assets/img/img1.png" alt="" data-speed="-2" class="move">
+                        <img src="assets/img/img2.png" alt="" data-speed="2" class="move">
+                        <img src="assets/img/img3.png" alt="" data-speed="2" class="move">
+                        <img src="assets/img/img4.png" alt="" data-speed="-2" class="move">
+                        <img src="assets/img/img5.png" alt="" data-speed="-2" class="move">
+                        <img src="assets/img/img6.png" alt="" data-speed="2" class="move">
+                    </div>
+
+                    <div class="home__data">
+                        <h1 class="home__title">Coffee<br> Drink 3D</h1>
+                        <p class="home__description">Let's help discover the best coffee drink <br> of the week.</p>
+                        <a href="#" class="home__button">Get Started</a>
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <!--------------------About----------------------------------->
+            <div id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="about-col-1" style="padding-left:20px;">
+                            <img src="assets/img/img7.png"alt="">
+                        </div>
+                        <div class="about-col-2" style="text-align: justify;padding:20px;">
+                            <h2 class="sub-title">COFFEE SHOP</h2>
+                            <p>A coffee shop is a welcoming place where individuals can enjoy a variety of coffee beverages in a relaxed and comfortable setting. It often offers a cozy ambiance with comfy seating, inviting decor, and a warm atmosphere. Coffee shops serve a range of coffee options, from espresso-based drinks like lattes and cappuccinos to brewed coffee, and may also provide light snacks and pastries. These establishments are popular for socializing, studying, or working, and they often offer free Wi-Fi, making them convenient spaces for various activities. Whether you're seeking a caffeine fix, a quiet spot to read, or a place to connect with friends, a coffee shop provides a pleasant and cozy experience for coffee enthusiasts and those looking for a cozy environment.</p>
+                            <div class="tab-titles">
+                                <p class="tab-links " data-tab="types & prices">Types & Prices</p>
+                            </div>
+                            <div>
+                                <div class="tab-contents" id="types & prices" style="display: none;">
+                                    <ul>
+                                        <li><span>Espresso: ₹50 - ₹150</span></li>
+                                        <li><span>Americano: ₹60 - ₹180</span></li>
+                                        <li><span>Cappuccino: ₹80 - ₹250</span></li>
+                                        <li><span>Latte: ₹90 - ₹280</span></li>
+                                        <li><span>Mocha: ₹100 - ₹300</span></li>
+                                        <li><span>Turkish Coffee: ₹80 - ₹250</span></li>
+                                        <li><span>Iced Coffee: ₹100 - ₹300</span></li>
+                                        <li><span>Frappuccino: ₹120 - ₹350</span></li>
+                                        <li><span>Irish Coffee: ₹150 - ₹400</span></li>
+                                        <li><span>Viennese Coffee: ₹140 - ₹350</span></li>
+                                        <li><span>Affogato: ₹120 - ₹300</span></li>
+                                        <li><span>Drip Coffee: ₹60 - ₹180</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <!-----------------Contact------------------------------------->
+            <section class="contact" id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="contact-left">
+                            <h1 class="sub-title">Contact Me</h1>
+                            <p><i class='bx bx-envelope' ></i>coffeeshop@gmail.com</p>
+                            <p><i class='bx bxs-phone'></i>021545856</p>
+                            <div class="social-icons">
+                                <a href=""><i class='bx bxl-facebook-circle'></i></a>
+                                <a href=""><i class='bx bxl-twitter'></i></a>
+                                <a href=""><i class='bx bxl-instagram-alt' ></i></a>
+                                <a href=""><i class='bx bxl-linkedin' ></i></a>
+                            </div>
+                        </div>
+                        <div class="contact-right">
+                            <form>
+                                <input type="text" name="Name" placeholder="Your Name" required>
+                                <input type="email" name="email" placeholder="Your Email" required>
+                                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                                <a href="#" id="home__button">Submit</a>
+                            </form>
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--===== GSAP =====-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+        
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                var tablinks = document.getElementsByClassName("tab-links");
+                var tabcontents = document.getElementsByClassName("tab-contents");
+                var underline = document.querySelector(".underline");
+        
+                for (var i = 0; i < tablinks.length; i++) {
+                    tablinks[i].addEventListener("click", function () {
+                        var tabname = this.getAttribute("data-tab");
+                        var tabContent = document.getElementById(tabname);
+        
+                        for (var j = 0; j < tabcontents.length; j++) {
+                            if (tabcontents[j] !== tabContent) {
+                                tabcontents[j].style.display = "none"; // Hide all other tab contents
+                            }
+                        }
+        
+                        // Toggle the visibility of the clicked tab content
+                        if (tabContent.style.display === "block") {
+                            tabContent.style.display = "none"; // Hide the tab content
+                        } else {
+                            tabContent.style.display = "block"; // Show the tab content
+                        }
+        
+                        // Toggle the 'active-link' class to the clicked tab link
+                        for (var k = 0; k < tablinks.length; k++) {
+                            tablinks[k].classList.remove("active-link");
+                        }
+                        this.classList.add("active-link");
+        
+                        // Move the underline to the clicked tab link
+                        var tabRect = this.getBoundingClientRect();
+                        underline.style.width = tabRect.width + "px";
+                        underline.style.left = tabRect.left + "px";
+                    });
+                }
+            });
+        </script>
+        
+        
+        
+    </body>
+</html>
